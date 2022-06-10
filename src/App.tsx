@@ -1,10 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { Loader } from './components/Loader.component';
 
 export const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Test</Text>
+      <Loader />
     </View>
   );
 };
