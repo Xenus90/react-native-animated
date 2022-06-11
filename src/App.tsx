@@ -1,11 +1,19 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Loader } from './components/Loader.component';
+import { Interpolation } from './components/Interpolation.component';
+import { AnimatedScrollView } from './components/AnimatedScrollView.component';
+import { Gestures } from './components/Gestures.component';
+import { AdvancedGestures } from './components/AdvancedGestures.component';
 
 export const App = () => {
   return (
     <View style={styles.container}>
-      <Loader />
+      {/* <Loader /> */}
+      {/* <Interpolation /> */}
+      {/* <AnimatedScrollView /> */}
+      {/* <Gestures /> */}
+      <AdvancedGestures />
     </View>
   );
 };
