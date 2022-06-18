@@ -5,6 +5,7 @@ import { Interpolation } from './components/Interpolation.component';
 import { AnimatedScrollView } from './components/AnimatedScrollView.component';
 import { Gestures } from './components/Gestures.component';
 import { AdvancedGestures } from './components/AdvancedGestures.component';
+import { Toast } from './components/Toast.component';
 
 export const App = () => {
   return (
@@ -13,7 +14,8 @@ export const App = () => {
       {/* <Interpolation /> */}
       {/* <AnimatedScrollView /> */}
       {/* <Gestures /> */}
-      <AdvancedGestures />
+      {/* <AdvancedGestures /> */}
+      {/* <Toast /> */}
     </View>
   );
 };
