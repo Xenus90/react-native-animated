@@ -46,7 +46,7 @@ export const BottomSheet = () => {
       </View>
       <PanGestureHandler onGestureEvent={gestureHandler}>
         <Animated.View style={[styles.bottomSheetContainer, style]}>
-          <Text>Bottom Sheet</Text>
+          <Text>Bottom sheet</Text>
         </Animated.View>
       </PanGestureHandler>
     </>
