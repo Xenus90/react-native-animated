@@ -8,19 +8,22 @@ import { Gestures } from './components/Gestures.component';
 import { AdvancedGestures } from './components/AdvancedGestures.component';
 import { Toast } from './components/Toast.component';
 import { BottomSheet } from './components/BottomSheet.component';
+import { SharedComponent } from './sharedComponent';
 
 export const App = () => {
-  return (
-    <GestureHandlerRootView style={styles.container}>
-      {/* <Loader /> */}
-      {/* <Interpolation /> */}
-      {/* <AnimatedScrollView /> */}
-      {/* <Gestures /> */}
-      {/* <AdvancedGestures /> */}
-      {/* <Toast /> */}
-      <BottomSheet />
-    </GestureHandlerRootView>
-  );
+  return <SharedComponent />;
+
+  // return (
+  //   <GestureHandlerRootView style={styles.container}>
+  //       {/* <Loader /> */}
+  //       {/* <Interpolation /> */}
+  //       {/* <AnimatedScrollView /> */}
+  //       {/* <Gestures /> */}
+  //       {/* <AdvancedGestures /> */}
+  //       {/* <Toast /> */}
+  //       {/* <BottomSheet /> */}
+  //   </GestureHandlerRootView>
+  // );
 };
 
 const styles = StyleSheet.create({
